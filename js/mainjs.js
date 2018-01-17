@@ -26,3 +26,16 @@ jQuery('img.svg').each(function(){
          }, 'xml');
 
      });
+
+     jQuery(document).ready(function($) {
+
+    //Initial load of page
+	$(document).ready(sizeContent);
+	//Every resize of window
+	$(window).resize(sizeContent);
+	//Dynamically assign height
+	function sizeContent() {
+	   var newHeight = $(window).height()  + "px";
+	    $(".full_image").css("height", newHeight);
+	}
+    

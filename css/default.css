@@ -29,3 +29,11 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+.letterspacing{
+  letter-spacing: 2.5px;
+}
+.paramargin{
+
+  margin-left: 25px;
+  margin-right: 25px;
+}

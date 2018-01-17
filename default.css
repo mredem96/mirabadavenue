@@ -9,3 +9,21 @@
 #logomargin{
   margin:5px;
 }
+.letterspacing{
+  letter-spacing: 5px;
+}
+.paramargin{
+  margin-left: 25px;
+  margin-right: 25px;
+  letter-spacing: 1px;
+}
+
+.full_image {
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    z-index: 500;
+    width:100%;
+    min-height: 100px;
+}
