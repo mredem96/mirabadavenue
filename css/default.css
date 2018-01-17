@@ -1,0 +1,31 @@
+
+.headercolor{
+  background-color: #f4bd37;
+  color: white;
+}
+
+#facebook-logo path{
+  fill:#FFFFFF;
+}
+#logomargin{
+  margin:5px;
+}
+.icon-container {
+  ul {
+    padding: 0;
+    font-size: 2em;
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+    width: 1.2em;
+  }
+}
+.grow:hover {
+
+  transform: scale(1.2);
+ }
+.buttonmargin{
+  margin-left: 10px;
+  margin-right: 10px;
+}
